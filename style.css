@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Public Sans', sans-serif;
+}
+
+body {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+header nav {
+    background-color: white;
+    width: 85%;
+    margin-inline: auto;
+    padding: 30px 0;
+    height: 8vh;
+    position: relative;
+    z-index: 2;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav ul .pages {
+    display: flex;
+}
+
+header nav ul .pages li {
+    margin-inline: 20px;
+}
+
+header nav ul li {
+    list-style: none;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: hsl(233, 8%, 62%);
+}
+
+.reqbtn {
+    background: linear-gradient(90deg, hsl(136, 65%, 51%), hsl(192, 70%, 51%));
+    padding: 15px 33px;
+    border-radius: 30px;
+    color: white;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.main {
+    background-color: hsl(0, 0%, 98%);
+    height: 70vh;
+    background-image: url(./images/bg-intro-desktop.svg);
+    background-repeat: no-repeat;
+    background-position: 910px;
+}
+
+.wrapper {
+    width: 85%;
+    margin-inline: auto;
+}
+
+.main .wrapper .left-text {
+    width: 35%;
+    padding-top: 150px;
+}
+
+.main .wrapper .left-text h1 {
+    font-size: 60px;
+    font-weight: 300;
+    margin-bottom: 45px;
+}
+
+.main .wrapper .left-text p {
+    font-size: 22px;
+    color: hsl(233, 8%, 62%);
+    margin-bottom: 70px;
+}
+
+.main .wrapper .right-img {
+    position: absolute;
+    right: -120px;
+    top: -30px;
+    z-index: 1;
+}
+
+.articles {
+    height: 70vh;
+    background-color: hsl(220, 16%, 96%);
+}
+
+.articles .wrapper h1 {
+    font-size: 40px;
+    font-weight: 400;
+    padding-top: 50px;
+    margin-bottom: 20px;
+}
+
+.articles .wrapper p {
+    font-size: 20px;
+    color: hsl(233, 8%, 62%);
+    width: 900px;
+}
+
+.articles .wrapper .reasons {
+    display: flex;
+    padding-top: 100px;
+    justify-content: space-between;
+}
+
+.articles .wrapper .reasons .reason {
+    width: 23%;
+}
+
+.articles .wrapper .reasons .reason h2 {
+    font-weight: 400;
+    padding-top: 35px;
+}
+
+.articles .wrapper .reasons .reason p {
+    padding-top: 35px;
+    width: 90%;
+}
+
+.articles.light {
+    background-color: hsl(0, 0%, 98%);
+}
+
+.articles .wrapper .cards {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0;
+}
+
+.articles .wrapper .cards .card {
+    width: 23%;
+    overflow: hidden;
+    background-color: whitesmoke;
+    border-radius: 10px;
+}
+
+.articles .wrapper .cards .card img {
+    width: 100%;
+    height: 50%;
+}
+
+.articles .wrapper .cards .card .text-wrapper {
+    padding: 25px;
+}
+
+.articles .wrapper .cards .card .text-wrapper span {
+    font-size: 13px;
+    color: hsl(233, 8%, 62%);
+}
+
+.articles .wrapper .cards .card .text-wrapper h3 {
+    margin: 10px 0;
+    font-size: 20px;
+    font-weight: 400;
+    width: 90%;
+}
+
+.articles .wrapper .cards .card .text-wrapper p {
+    font-size: 17px;
+    width: 90%;
+}
+
+footer {
+    height: 25vh;
+    background-color: hsl(233, 26%, 24%);
+
+}
+
+footer .wrapper.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 50px;
+}
+
+footer .wrapper.footer .left {
+    display: flex;
+}
+
+footer .wrapper.footer .left .inner-left {
+    margin: 0 30px;
+}
+
+footer .wrapper.footer .left .inner-left .logo {
+    padding-top: 30px;
+}
+
+footer .wrapper.footer .left .inner-left .icons {
+    padding-top: 80px;
+}
+
+footer .wrapper.footer .left .inner-left .icons img {
+    padding: 0 5px;
+}
+
+footer .wrapper.footer .left .inner-middle,
+.inner-right {
+    margin: 0 30px;
+    margin-top: 5px;
+}
+
+footer .wrapper.footer .left .inner-middle a,
+.inner-right a {
+    color: hsl(220, 16%, 96%);
+    text-decoration: none;
+    display: block;
+    margin: 30px;
+}
+
+footer .wrapper.footer .right {
+    text-align: right;
+}
+
+footer .wrapper.footer .right p {
+    color: hsl(233, 8%, 62%);
+    margin-top: 100px;
+
+}
